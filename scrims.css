@@ -26,14 +26,16 @@ body {
   border-color: #cecece;
   border-width: 50cm;
   background-size: cover;
-  width: 100%;
+
   padding-bottom: none;
 }
 .image-sidebar {
   padding-bottom: 20rem;
-
+  position: absolute;
+  top: 0rem;
+  left: 50rem;
   margin-right: 2px;
-  height: 50rem;
+  height: 60rem;
   float: right;
   width: 45%;
   margin-top: 0%;
@@ -79,6 +81,34 @@ a {
   color: #5500c0;
   text-decoration: none;
 }
+.text {
+  width: 650px;
+  color: #4953cf;
+  font-size: 24px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+
+  animation: typeAnim 4s steps(45) 1s,
+    blinkCursor 500ms steps(45) infinite normal;
+}
+@keyframes typeAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 650px;
+  }
+}
+@keyframes blinkCursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 nav {
   background: #0c141f;
   display: flex;
@@ -92,7 +122,7 @@ nav .logo {
   width: 5rem;
   height: 5rem;
   box-sizing: border-box;
-  float: left;
+  float: center;
   margin-left: 4rem;
 }
 nav ul {
@@ -124,7 +154,7 @@ nav ul li .nav-active {
 
 .bg-container {
   width: 100%;
-  background-image: url("pubg.jpg");
+  background-color: #0c141f;
   height: 500px;
   background-size: cover;
 }
