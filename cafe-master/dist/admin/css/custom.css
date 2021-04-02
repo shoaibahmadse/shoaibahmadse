@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+}
+
+.text-8xl {
+  font-size: 7rem;
+}
+
+.active-page {
+  background-color: #c05621;
+  color: #feebc8;
+}
+
+.burger {
+  margin: auto 1rem;
+  cursor: pointer;
+}
+
+.line {
+  margin: 3px;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+}
+
+.right-5 {
+  right: 1.4rem;
+}
+
+.nav-bar {
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 38.4px;
+  z-index: 500;
+}
+
+.slide {
+  transform: translateX(0%);
+}
+
+.modal-box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+  padding: 1.5rem;
+  z-index: 650;
+}
+
+.img-showcase {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 600;
+}
+
+.active {
+  background-color: #68d391;
+}
+.active:hover {
+  background-color: #48bb78;
+}
+
+.deactive {
+  background-color: #fc8181;
+}
+.deactive:hover {
+  background-color: #f56565;
+}

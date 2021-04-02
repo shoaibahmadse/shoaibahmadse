@@ -1,0 +1,7 @@
+** WORKING FILES OF ADMIN PANEL AND FRONT PAGE DESIGN**
+    *Instruction*
+
+-- Start Work on Frontend
+-- Add More Error Handlers
+-- Clean (get rid of) Bootstrap 
+-- Clean Backend Code

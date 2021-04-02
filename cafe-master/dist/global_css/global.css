@@ -1,0 +1,55 @@
+:root {
+  /* --primary-color: #ec7c32; */
+  --primary-color: rgb(239, 169, 27);
+  --secondary-color: rgb(242, 255, 56);
+  --light-color: #7b9e89;
+  --dark-color: #101820ff;
+  --head-font: "MuseoModerno", cursive;
+  --body-font: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+/* 
+::-moz-selection {
+  background: var(--secondary-color);
+  color: rgb(156, 14, 4);
+}
+
+::selection {
+  background: var(--secondary-color);
+  color: rgb(156, 14, 4);
+} */
+
+.fancy-font {
+  font-family: var(--head-font);
+}
+
+.general-font {
+  font-family: var(--body-font);
+}
+
+.bg-orange {
+  background-color: var(--primary-color);
+}
+
+.bg-light-color {
+  background-color: var(--light-color);
+}
+
+.black-text {
+  color: var(--dark-color);
+}
+
+.black-bg {
+  background-color: var(--dark-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

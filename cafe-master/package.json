@@ -1,0 +1,16 @@
+{
+  "name": "cafe-payala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "tailwindcss": "^1.4.6"
+  }
+}

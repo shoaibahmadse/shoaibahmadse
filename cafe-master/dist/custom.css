@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+div.mobile {
+  display: none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("assets/hero-full.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+footer {
+  margin-top: auto;
+}
+/* SCROLL BAR */
+.cat-nav::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+
+.cat-nav::-webkit-scrollbar-track {
+  background-color: #e79639;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.cat-nav::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #f3d448;
+}
+/* NAV-BURGER */
+.burger {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.nav-elements:hover {
+  border-bottom: solid black 2px;
+}
+
+.nav-underline {
+  border-bottom: solid black 2px;
+}
+
+.burger-active .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.burger-active .line2 {
+  opacity: 0;
+}
+
+.burger-active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/* Hero Image */
+
+.hero-bg-div {
+  background-image: url(./assets/hero-full.jpg);
+  background-size: 100%;
+}
+
+/* Deals Section */
+
+.deals-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.deal-img {
+  height: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) {
+  .deals-section {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .fb-page .mobile {
+    display: block;
+  }
+  .fb-page .desktop {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    transform: translateY(-600%);
+  }
+
+  .order-button {
+    display: none;
+    transform: translateY(-600%);
+    margin: 20px;
+  }
+
+  div.desktop {
+    display: none;
+  }
+
+  div.mobile {
+    display: inline-block;
+  }
+
+  .burger {
+    left: 20px;
+    top: 20px;
+  }
+
+  .active {
+    display: block;
+    animation: slideOut 250ms forwards;
+  }
+
+  .deals-section {
+    gap: 1.3rem;
+  }
+
+  .parallax {
+    background-image: url(assets//hero-full_50_2_40.jpg);
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @keyframes slideOut {
+    to {
+      transform: translateY(20%);
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .deal-card {
+    margin: auto;
+    width: 70%;
+  }
+}
