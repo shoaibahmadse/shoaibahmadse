@@ -39,12 +39,12 @@ $row = mysqli_fetch_assoc($res);
       <div data-aos="fade-right" data-aos-duration="1500" class="text-center text-xl p-2 m-2">
         <p class="leading-loose">We are open until 12:00 AM. You can Dine-In or order food for Takeaway</p>
         <p>We are also available for Delivery. Just Call us at <?php echo $row['phone_contact'] ?></p>
-        <p class="leading-normal my-5">We are located at Satayana Road, near Allied Bank
-          <br>Faisalabad, Punjab
+        <p class="leading-normal my-5">We are located at 21 Romilla Street,
+          <br>London, UK.
         </p>
         <div class="mx-4">
           <h1 class="text-4xl">Our Location:</h1>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.70074239097903!2d73.11161987128092!3d31.39742744426485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922673e9522eff1%3A0x8624e29a0ef0b24e!2sCafe%20Pyala!5e0!3m2!1sen!2s!4v1601358065617!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.023858642114!2d-0.1336562842298326!3d51.51277827963605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d2fa60d81b%3A0x15ef9dda041d1bab!2s21%20Romilly%20St%2C%20Soho%2C%20London%20W1D%205AF%2C%20UK!5e0!3m2!1sen!2s!4v1617453370736!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
       <!-- <a href="https://www.foodpanda.pk/restaurant/n6zl/cafe-pyala#"></a> -->
@@ -55,13 +55,13 @@ $row = mysqli_fetch_assoc($res);
       <div data-aos="zoom-out-down" data-aos-duration="1500" class="font-extrabold sm:text-3xl shadow-xl text-2xl md:text-5xl m-6 fancy-font">
         <h1 class="text-center tracking-wider bg-yellow-300 p-2">Visit Our Facebook Page</h1>
       </div>
-      <div class="w-full mx-auto">
+      <!-- <div class="w-full mx-auto">
         <div class="fb-page desktop" data-href="https://www.facebook.com/cafepyalafsd/" data-tabs="timeline" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <blockquote cite="https://www.facebook.com/cafepyalafsd/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cafepyalafsd/">Cafe Pyala</a></blockquote>
         </div>
         <div class="fb-page mobile" data-href="https://www.facebook.com/cafepyalafsd/" data-tabs="timeline" data-width="250" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <blockquote cite="https://www.facebook.com/AUAW-with-cousins-1585210981740306/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AUAW-with-cousins-1585210981740306/">AUAW with cousins</a></blockquote>
-        </div>
+        </div> -->
       </div>
     </article>
   </section>

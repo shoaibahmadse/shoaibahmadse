@@ -21,7 +21,7 @@ function loadDishes(catId) {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    "/cafe-payala/dist/admin/ajax/dishnames.php?category-id=" + catId,
+    "/cafe-master/dist/admin/ajax/dishnames.php?category-id=" + catId,
     true
   );
 
@@ -80,7 +80,7 @@ function loadStatus(catId, statusSpan) {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    "/cafe-payala/dist/admin/ajax/categorystatus.php?category-id=" + catId,
+    "/cafe-master/dist/admin/ajax/categorystatus.php?category-id=" + catId,
     true
   );
 
@@ -121,7 +121,7 @@ function changeStatus(id, status) {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    "/cafe-payala/dist/admin/ajax/changestatus.php?id=" +
+    "/cafe-masters/dist/admin/ajax/changestatus.php?id=" +
       id +
       "&status=" +
       status,

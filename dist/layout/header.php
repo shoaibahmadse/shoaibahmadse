@@ -72,7 +72,7 @@ if ($currentPath == '' || $currentPath == 'index.php') {
         <span class="ml-3 text-2xl md:text-3xl title mt-2"><?php echo $site_name ?></span>
       </a>
       <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 mb-2 sm:mb-0 ">
-        <a href="https://api.whatsapp.com/send?phone=923011112965&text=&source=&data=&app_absent=" target="_blanck" class="btn-order inline-flex font-sans items-center bg-yellow-200 border-0 py-1 px-2 focus:outline-none hover:bg-yellow-300 rounded text-base md:mt-0">
+        <a href="https://api.whatsapp.com/send?phone=923136664766&text=&source=&data=&app_absent=" target="_blanck" class="btn-order inline-flex font-sans items-center bg-yellow-200 border-0 py-1 px-2 focus:outline-none hover:bg-yellow-300 rounded text-base md:mt-0">
           Order Now
           <i class="fab fa-whatsapp mx-2"></i>
         </a>

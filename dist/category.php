@@ -83,7 +83,7 @@
                             $dish_attr_res = mysqli_query($conn, $dish_attr_sql);
                             while($dish_attr_row = mysqli_fetch_assoc($dish_attr_res)) {
                         ?>
-                            <option value="<?php echo $dish_attr_row['attribute'] ?>"><?php echo $dish_attr_row['attribute'].':'; echo ' Rs'.$dish_attr_row['price']?></option>
+                            <option value="<?php echo $dish_attr_row['attribute'] ?>"><?php echo $dish_attr_row['attribute'].':'; echo ' €'.$dish_attr_row['price']?></option>
                         <?php 
                             }
                         ?>
