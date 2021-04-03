@@ -64,7 +64,7 @@ function getAttributes(dishID, iterator) {
 function setAttributes(name, price, jj) {
   //Set price through a seperate function and maybe from here call second fucntion on change
   const select = document.querySelector("#select-tag" + jj);
-  let attributeSpace = `<option value="${name}" >${name}: Rs${price}</option>`;
+  let attributeSpace = `<option value="${name}" >${name}: €${price}</option>`;
   $(select).append(attributeSpace);
 }
 
@@ -73,7 +73,7 @@ function generateDish(ii, name, disc, img, id) {
   let dishCard = `  
                         <article id="dish-card" class="deal-card m-3 bg-white shadow-lg hover:shadow-2xl rounded-t-lg">
                             <div class = "deal-img-container" >
-                                <img id = "dish-image${ii}" class="inline w-full h-full deal-img rounded-t-lg" src=${dishImgPath}>
+                                <img id = "dish-image${ii}" class="inline w-full h-full deal-img rounded-t-lg" src="${dishImgPath}">
                             </div>
                             <div class="disc border-t-2 border-black">
                                 <h2 id="dish-name${ii}" class="fancy-font text-md md:text-lg font-bold text-left p-2"></h2>

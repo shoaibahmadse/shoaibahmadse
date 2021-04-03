@@ -24,8 +24,8 @@ $row = mysqli_fetch_assoc($res);
       <a href="category.php" class="bg-yellow-400 transition-colors transition duration-150 hover:bg-yellow-600 text-black text-sm sm:text-lg sm:py-2 sm:px-4 font-bold mr-3 py-1 px-2 rounded-full">
         Browse Categories
       </a>
-      <a href="menu.php" class="border cursor-pointer transition-colors transition duration-150 border-yellow-600 hover:bg-yellow-600 text-white text-sm sm:text-lg sm:py-2 sm:px-4 font-bold py-1 px-2 rounded-full">
-        Menu
+      <a href="category.php" class="border cursor-pointer transition-colors transition duration-150 border-yellow-600 hover:bg-yellow-600 text-white text-sm sm:text-lg sm:py-2 sm:px-4 font-bold py-1 px-2 rounded-full">
+        Categories
       </a>
     </div>
   </div>

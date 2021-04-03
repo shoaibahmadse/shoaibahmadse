@@ -52,9 +52,9 @@ if ($currentPath == '' || $currentPath == 'index.php') {
         <a href="index.php" class="<?php if ($currentPath == '' || $currentPath == 'index.php') {
                                       echo 'nav-underline';
                                     } ?> sm:ml-5 md:mr-5 lg:mx-3 px-2 cursor-pointer md:text-lg nav-elements">Home</a>
-        <a href="menu.php" class="<?php if ($currentPath == 'menu.php') {
+        <!-- <a href="category.php" class="<?php if ($currentPath == 'menu.php') {
                                     echo 'nav-underline';
-                                  } ?> sm:ml-5 md:mr-5 lg:mx-3 px-2 cursor-pointer md:text-lg nav-elements">Menu</a>
+                                  } ?> sm:ml-5 md:mr-5 lg:mx-3 px-2 cursor-pointer md:text-lg nav-elements">Menu</a> -->
         <a href="category.php" class="<?php if ($currentPath == 'category.php') {
                                         echo 'nav-underline';
                                       } ?> sm:ml-5 md:mr-5 lg:mx-3 px-2 cursor-pointer md:text-lg nav-elements">Categories</a>
