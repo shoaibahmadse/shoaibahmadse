@@ -42,7 +42,7 @@
         <div class="my-2">
             <div class="mx-4">
                 <h1 class="text-4xl">Our Location:</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.70074239097903!2d73.11161987128092!3d31.39742744426485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922673e9522eff1%3A0x8624e29a0ef0b24e!2sCafe%20Pyala!5e0!3m2!1sen!2s!4v1601358065617!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.023858642114!2d-0.1336562842298326!3d51.51277827963605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d2fa60d81b%3A0x15ef9dda041d1bab!2s21%20Romilly%20St%2C%20Soho%2C%20London%20W1D%205AF%2C%20UK!5e0!3m2!1sen!2s!4v1617459865751!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        
             </div>
         </div>
     </section>
@@ -79,8 +79,8 @@
                 <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                     <a class="text-orange-500" href="tel: <?php echo $row['phone_contact'] ?>"><?php echo $row['phone_contact'] ?></a><br>
                     <a class="text-orange-500" href="mailto: <?php echo $row['email_contact'] ?>"><?php echo $row['email_contact'] ?></a>
-                    <p class="leading-normal my-5">Satayana Road Cafe Pyala, near Allied Bank
-                        <br>Faisalabad, Punjab
+                    <p class="leading-normal my-5">21 Romilly St, Soho, London W1D 5AF, UK
+                        <br>London W1D 5AF, UK
                     </p>
                 </div>
             </div>
